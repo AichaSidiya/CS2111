@@ -1,0 +1,98 @@
+header, footer, nav, div, p, body {
+   font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+   font-size: 1em;
+}
+header{
+  background-color: MediumPurple;
+  color: white;
+  padding: 1em;
+  margin: 0em 4em 0.5em 4em;
+}
+h1{
+  font-size: 3em;
+}
+h4{
+  font-size: 0.7em;
+}
+ul{
+  background-color: Lavender;
+  padding: 1em;
+  list-style-type: none;
+  margin: 0;
+}
+li{
+  display: inline;
+  background-color: Plum;
+  padding: 1em;
+}
+a:link{
+	color: Magenta;
+}
+a:visited{
+	color: Indigo;
+}
+table{
+  border: 0.1em solid Lavender;
+  width: 40em;
+}
+tr{
+  background-color: Thistle;
+}
+th{
+  background: RebeccaPurple;
+  color: white;
+}
+body{
+  background-color: #EFEFFD;
+}
+article{
+  margin: 0em 4em 0.5em 4em;
+  background-color: white;
+  padding: 1em;
+}
+form{
+  margin: 0em 4em 0.5em 4em;
+  background-color: white;
+  padding: 1em;
+}
+fieldset{
+  border: 0em;
+}
+.message{
+  width: 15em;
+  line-height: 5em;
+}
+label.message{
+  position: relative;
+  top: -1em;
+}
+#Comment{
+  position: absolute;
+  float:right;
+  background-color: MediumOrchid;
+  color: white;
+  border-color: MediumOrchid;
+  right: 50em;
+  margin-top: -3em;
+}
+legend{
+  padding: 1em;
+  font-size: 3em;
+  color: DeepSkyBlue;
+}
+h2{
+  color: RoyalBlue;
+}
+h3{
+  color: MediumSlateBlue;
+}
+.Certificate{
+  width: 10em;
+  margin: -19em 3em 5em 4em;
+  float: right;
+}
+#Home{
+  position: relative;
+  width: 30em;
+  bottom: -1.5em;
+}
