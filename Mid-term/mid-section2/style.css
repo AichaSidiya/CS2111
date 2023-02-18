@@ -1,0 +1,91 @@
+header, footer, nav, div, p, body {
+   font-family: "Georgia";
+   font-size: 1em;
+}
+body{
+  background-color: #BB8FCE;
+}
+header{
+  background-color: white;
+	margin: 0em 4em 3.5em 4em;
+  padding: 0.1em;
+  height: 9em;
+}
+article{
+  margin: 0em 4em 0.5em 4em;
+	background-color: white;
+	padding: 1em;
+}
+ul{
+  list-style-type: none;
+}
+
+li{
+  float: left;
+  margin-left: 5em;
+}
+
+li a{
+  display: block;
+  text-align: center;
+  padding: 0.1em;
+}
+.logo{
+  position:relative;
+  float left;
+  height: 5em;
+  clear:right;
+  width: 5em;
+}
+
+article div.entry{
+  clear: left;
+  padding: 1em;
+}
+.entry{
+  height: 10em;
+}
+
+.right{
+  position: relative;
+  float: right;
+  height: 10em;
+  clear:right;
+  width: 15em;
+}
+footer{
+  color: black;
+}
+.fa{
+  position: relative;
+  float: right;
+  margin-left: 0.313em;
+  border-radius: 50em;
+  padding: 0.3em;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+table, th, td{
+  border: 0.1em solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: -20em 3em 5em 18em;
+  background-color: white;
+}
+table{
+  height: 20em;
+  width: 50em;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  margin:-9em 1em 8em 2em;
+}
