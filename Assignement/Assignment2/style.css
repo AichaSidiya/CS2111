@@ -1,0 +1,71 @@
+/* general text formatting for Assignment2 web page */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+form{
+  margin: 0% 25% 0.5% 9%;
+	background-color: white;
+	padding-left: 15%;
+}
+legend{
+  width: 45%;
+  background-color: #ecf5fe;
+  padding-left: 26%;
+  padding-right: 27%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 100%;
+}
+#title{
+    display: block;
+    width: 100%;
+}
+#desc{
+  display: block;
+  width: 100%;
+  line-height: 400%;
+}
+#city{
+  width: 100%;
+}
+#country{
+  width: 60%;
+}
+#rating{
+  width: 25%;
+}
+.backcolor{
+  background-color:#ecf5fe;
+  line-height: 200%;
+  width: 100%;
+}
+.buttonStyle{
+  background-color:#93a0ce;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 75%;
+  line-height: 200%;
+  width: 20%;
+  border-color: #374c95;
+  border-radius: 9%;
+  margin-left: 25%;
+  margin-right: -25%;
+}
+tr.tablerow{
+  border: 0.1em solid;
+  border-color: #59c3ee;
+  float: right;
+  margin: 1% 2% 0% 7%;
+  width: 35%;
+}
+tr.tablerow2{
+  float: left;
+}
