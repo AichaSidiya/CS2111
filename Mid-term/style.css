@@ -1,0 +1,99 @@
+header, footer, nav, div, p, body {
+   font-family: "Georgia";
+   font-size: 1em;
+}
+body{
+  background-color: #1A1A19;
+}
+
+article{
+  background-color: white;
+  width: 45em;
+  padding: 2em;
+  margin: -27em 3em 1em 15em;
+  height: 47em;
+}
+#Page{
+  background-color: #E2D1BB;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 1em;
+}
+#navigator{
+  background-color: #E2D1BB;
+}
+ul{
+  width:10em;
+  list-style-type: none;
+  padding: 1em;
+}
+
+li{
+  line-height: 1.75em;
+}
+a, li{
+  text-decoration: none;
+  color:#C5833B;
+  font-weight: normal;
+}
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  width:10em;
+  padding: 1em;
+}
+
+article div.entry{
+  clear: left;
+  padding: 1em;
+}
+.entry{
+  height: 15em;
+}
+
+.right{
+  position: relative;
+  float: right;
+  height: 10em;
+  clear:right;
+  width: 15em;
+}
+footer{
+  color: white;
+}
+.fa{
+  position: relative;
+  float: right;
+  margin-left: 0.313em;
+  border-radius: 50em;
+  padding: 0.3em;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+table, th, td{
+  border: 0.1em solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: -20em 3em 5em 18em;
+  background-color: white;
+}
+table{
+  height: 20em;
+  width: 50em;
+}
+h1{
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  margin:-9em 1em 8em 2em;
+}
