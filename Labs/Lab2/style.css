@@ -1,0 +1,54 @@
+header, footer {
+	color: white;
+	background-color: #3D6271;
+	margin: 0em 4em 0.5em 4em;
+}
+
+ul li {
+	display: inline;
+}
+#navigator{
+	background-color: #ADCED5;
+}
+a:link{
+	color: #17B0D1;
+}
+a:visited{
+	color: purple;
+}
+body {
+	background-color: #557A87;
+
+}
+article {
+	margin: 0em 4em 0.5em 4em;
+	background-color: white;
+	padding: 0.5em;
+}
+#Photographer{
+	color: gray;
+	font-style: italic;
+	font-size:0.8em
+}
+.commenter{
+	color: gray;
+	font-style: italic;
+	font-size:0.75em;
+}
+figcaption{
+	color: gray;
+	font-style: italic;
+	font-size:0.75em;
+}
+figure img{
+	padding:0.2em;
+   	border:0.05em solid;
+}
+#Sharing{
+	width: 31em;
+	padding: 0.2em;
+	border: 0.01em solid;
+	background-color: lightgrey;
+	box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
+}	
+
