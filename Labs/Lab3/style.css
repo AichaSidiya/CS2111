@@ -1,0 +1,75 @@
+
+header, footer, nav, div, p, body {
+   font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+   font-size: 1em;
+}
+
+article{
+  margin: 7em 3em 5em 25em;
+  padding: 2em;
+  background-color: #F5F5F5;
+  height: 47em;
+  font-size: 0.8em;
+}
+
+article div.entry{
+  clear: left;
+  border-top: 0.1em solid #FF8800;
+}
+
+.right{
+  display: block;
+  float: right;
+  width: 7em;
+  height: 1.5em;
+  color: white;
+  background-color: #FF8800;
+  padding: 0.3em;
+  margin-top: 2.7em;
+  text-align: center;
+}
+.linkbutton{
+  color: white;
+}
+
+figure{
+  position: relative;
+  float: left;
+}
+
+.overlayed{
+  float: left;
+  position: absolute;
+  top: 0em;
+  right: 0em;
+}
+
+figcaption{
+  position: absolute;
+  float: left;
+  background-color: #474747;
+  color: white;
+  width: 10.3em;
+  padding: 0.5em 0.7em 0.4em;
+  opacity: 0.7;
+  top: 9.7em;
+}
+footer{
+  background-color: #474747;
+  color: white;
+  height: 20em;
+  padding: 1em;
+}
+.footer-section{
+ border-top: 0.1em solid #FF8800;
+ width: 40em;
+ margin: -9em 7em 5em 25em;
+ float: right;
+}
+
+.footer-related{
+  position: relative;
+  border-top: 0.1em solid #FF8800;
+  width: 15em;
+  bottom: -1.5em;
+}
